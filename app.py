@@ -15,7 +15,7 @@ y = df.iloc[:,-1]
 
 final_X = X
 scaler = StandardScaler()
-scated_Xfrom sklearn.ensemble import RandomForestRegressor = scaler.fit_transform(final_X)
+scated_Xfrom  = scaler.fit_transform(final_X)
 
 st.sidebar.title('Select House features: ')
 st.sidebar.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP1cvL7k_bZLr062cBg83QzkJGRiIXhqoOew&s')
@@ -46,6 +46,7 @@ with st.spinner('prediting House Price'):
 
 st.success(f'Estimated House Price is:${final_price}')
 st.markdown('''**Design and Developed by:Jatin**''')
+
 
 
 
